@@ -19,7 +19,7 @@ class Transfer
       sender.balance -= amount
       receiver.balance += amount
 
-      binding.pry
+    
 
    else
 
