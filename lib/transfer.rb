@@ -19,7 +19,7 @@ class Transfer
     receiver.balance += amount
       binding.pry
      = @balance - @amount
-
+   else
 
     status = "complete"
   end
