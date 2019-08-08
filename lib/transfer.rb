@@ -18,7 +18,7 @@ class Transfer
     if valid? && sender.balance > amount && self.status == "pending"
     receiver.balance += amount
       binding.pry
-     = @balance - @amount
+      
    else
 
     status = "complete"
